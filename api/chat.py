@@ -4,9 +4,9 @@ import os
 import requests
 
 # --- CONFIGURATION ---
-API_URL = "https://onrender.com"
+API_URL = "https://suggestonlineshops.onrender.com/chat"
 # Safely pulls the key from Vercel's server environment, falling back to the default string if missing
-API_SECRET_TOKEN = os.getenv("API_SECRET_TOKEN", "Mycux2erkecureCloth6")
+API_SECRET_TOKEN = os.getenv("API_SECRET_TOKEN", "Mycux2erkec6")
 # ---------------------
 
 class handler(BaseHTTPRequestHandler):
